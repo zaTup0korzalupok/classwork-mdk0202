@@ -15,7 +15,9 @@ let obj={
     role:"♂️ boss gym ♂️",
     zxc1:[1,2,3],
     obi:{word:"♂️ goida ♂️",pose:"♂️♂️♂️♂️♂️"},
-    asdf:function zxc2(){console.log(arr[3][4])}
+    asdf:function zxc2(){
+        console.log(arr[3][4])
+    }
 }
 console.log(obj.name)
 console.log(obj.obi.word)
