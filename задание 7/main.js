@@ -1,18 +1,18 @@
 //1
 alert("hello")
 let arr =[1,2,3,4,5,6,7,8,9,10]
-function zxc(x){
-    for(element in x){
-        const element = array[index];
-        if(element %2==0 ){
+// function zxc1(x){
+//     for(element in x){
+//         const element = array[index];
+//         if(element %2==0 ){
        
-            let z = element
-            console.log(z)
-        }
+//             let z = element
+//             console.log(z)
+//         }
 
-    }
-}
-zxc(arr)
+//     }
+// }
+// zxc1(arr)
 //2
 let foo=[]
 for (let i = 1; i <= 100; i++){
@@ -47,21 +47,30 @@ function sum(x){
     let z 
     for(element in x){
       z+= element
-
 }
 console.log(z)
 }
 let a=[1,2,3]
 sum(a)
+
 //5
-// const fagg
-// fagg[1,4,1,7,8]
-function i(){
+// const fagg =[1,4,-1,7,8,3,6]
+function i5(x){
     // if (){
+        //yes
 
     // } else{
-
+//no
     // } 
     
 }
+i5()
 //6
+function i6(x){
+    // if ( ){
+        //yes
+
+    // } else{
+//no
+    } 
+    i6()
