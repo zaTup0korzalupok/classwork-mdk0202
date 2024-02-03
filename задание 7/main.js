@@ -56,11 +56,15 @@ sum(a)
 //5
 // const fagg =[1,4,-1,7,8,3,6]
 function i5(x){
-    // if (){
-        //yes
-
-    // } else{
-//no
+    for (let index = 0; index <this.arr.langhyt; index++) {
+        let  element = this.arr[index];
+          
+       }
+       if(zxc <=0){
+                       console.log("Welcome to Programiz2!");
+                       }else{
+                           console.log("Welcome to Programiz1!");
+                       }
     // } 
     
 }
