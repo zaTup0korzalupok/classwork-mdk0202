@@ -137,16 +137,14 @@ res.print()
 //6
 //1
 // function factorial(n){
-//     var f = "это единственное место в коде, которое мы имеем право изменить";
-//     f = f.replace("$", n);
-//     for(let i = 0; i < n; i++){
-//         if(parseInt(f)){
-//             throw new Error("Cheaters are not allowed");
-//         }
-//         f = eval(f);
-//     }
-//     return parseInt(f);
-// }
+//     var result = 1;
+//   while(n){
+//       result *= n--;
+//   }
+//   return result;
+
+//       }
+// let a = factorial(5)
 //2
 // function fn(n){
 //         for(var s=i=1;i<n;s+=(i+=3)){};
