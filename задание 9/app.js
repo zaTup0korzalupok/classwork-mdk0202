@@ -144,7 +144,7 @@ res.print()
 //   return result;
 
 //       }
-// let a = factorial(5)
+// let a = factorial(5) 
 //2
 // function fn(n){
 //         for(var s=i=1;i<n;s+=(i+=3)){};
