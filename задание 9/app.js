@@ -136,25 +136,44 @@ let res = new FilterArrays(qwe)
 res.print()
 //6
 //1
-// function factorial(n){
-//     var result = 1;
-//   while(n){
-//       result *= n--;
-//   }
-//   return result;
-
-//       }
-// let a = factorial(5) 
+class fac{
+    fa
+    constructor(num){
+        this.fa = num
+    }
+    factorial(){
+       let result = 1;
+     while(this.fa){
+         result *= this.fa--;
+     }
+     return result;
+}
+}
+let a = new fac(5) 
+a.factorial()
 //2
-// function fn(n){
-//         for(var s=i=1;i<n;s+=(i+=3)){};
-//     return s;
-//     }  
-//     alert(fn(7));
+class cube{
+    cub
+    constructor(num){
+        this.cub = num
+    }
+     fn(){
+            for(var s=i=1;i<this.cub;s+=(i+=3)){};
+        return s;
+        }  
+       
+}
+let b = new cube(7) 
+a.fn()
     
 //3
 //y = ax^2 + bx + c
-let quadraticEquation = (a, b, c) => {
+class idk{
+    zxc
+    constructor(num){
+        this.zxc = num
+    }
+qwerty(a, b, c){
     if(a == 0)
         return false;
     let res = {};
@@ -173,4 +192,6 @@ let quadraticEquation = (a, b, c) => {
     }
     return res;
 }
-console.log(quadraticEquation(1,12,36));
+}
+let c = new idk(1,12,36)
+c.qwerty ()
