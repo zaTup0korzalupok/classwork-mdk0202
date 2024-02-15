@@ -1,0 +1,87 @@
+!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document 13</title> 
+</head> 
+<body> 
+    <div class="wrapper" id="wrapper"> 
+        <h1></h1> 
+        <div class="wrapper-content"> 
+          <div class="wrapper-form"> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-from-label">Введите фамилию</label> 
+                <input type="text" class="wrapper-from-input"> 
+            </div> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-from-label">Введите Имя</label> 
+                <input type="text" class="wrapper-from-input"> 
+            </div> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-from-label"> Вы совершенннолетний?</label> 
+                <label for="" class="wrapper-from-label"></label> 
+                <label for="" class="wrapper-from-label">Да 
+ 
+                    <input type="checkbox" class="input-check" id="input-check-positive"> 
+                </label> 
+                <label for="" class="wrapper-from-label">Нет 
+ 
+                    <input type="checkbox" class="input-check" id="input-check-negative"> 
+                </label> 
+            </div> 
+                <button disabled class ="wrapper-form-btn" id="next-btn" onclick="nextForm()">Продолжить</button> 
+          </div> 
+        </div> 
+    </div> 
+    <!-- блок анкеты --> 
+    <div class="wrapper-content-negative" style="display:none;"> 
+        <h2>Анкета</h2> 
+        <div class="wrapper-form"> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-form-label"> укажите ФИО</label> 
+                <input type="text" class="wrapper-from-input" id="input-name" placeholder="ФИО"> 
+            </div> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-form-label"> укажите школу</label> 
+                <input type="text" class="wrapper-from-input" id="input-school" placeholder="школа №"> 
+            </div> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-form-label"> укажите призвание</label> 
+                <select name="" id=""> 
+                    <option value="прог">прог</option> 
+                    <option value="дизайн">дизайн</option> 
+                    <option value="сис админ">сис админ</option> 
+                    <option value="админ бд">админ бд</option> 
+                </select> 
+            </div> 
+        </div> 
+        <button class="wrapper-save-btn" id="save-btn-1" onclick="saveForm()">сохр</button> 
+    </div> 
+    <div class="wrapper-content-positive"> 
+        <h2>анкета совершеннолетних</h2> 
+        <div class="wrapper-form"> 
+ 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-form-label"> укажите название кафедры</label> 
+                <input type="text" class="wrapper-from-input" id="input-kaf" placeholder="ФИО"> 
+            </div> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-form-label"> укажите ФИО</label> 
+                <input type="text" class="wrapper-from-input" id="input-school" placeholder="ФИО"> 
+            </div> 
+            <div class="wrapper-form-group"> 
+                <label for="" class="wrapper-form-label"> укажите призвание</label> 
+                <select name="" id="select-nap"> 
+                    <option value="прог">прог</option> 
+                    <option value="дизайн">дизайн</option> 
+                    <option value="сис админ">сис админ</option> 
+                    <option value="админ бд">админ бд</option> 
+                </select> 
+            </div> 
+        </div> 
+        <button class="wrapper-save-btn" id="save-btn-2" onclick="saveForm()">сохр</button> 
+    </div> 
+    <script src="app.js"></script> 
+</body> 
+</html>
