@@ -11,7 +11,7 @@ let reqInput = () => {
         nextBtn.disabled = false
     }
     return [ firstName, lastName]
-}
+}   
 
 let nextForm = () => {
     inputChecks = document.querySelectorAll('.wrapper-form-check')
