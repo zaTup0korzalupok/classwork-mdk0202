@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Расчет стоимости услуг по ремонту жилых помещений</title>
+    
+</head>
+<body>
+    <h1>Расчет стоимости услуг по ремонту жилых помещений</h1>
+
+    <form>
+        <label for="tileInstallation">цена за плитки:</label>
+        <input type="number" id="tileInstallation" name="tileInstallation"  placeholder="25"><br><br>
+
+        <label for="wallPlastering">Штукатурка стен за 1 метр:</label>
+        <input type="number" id="wallPlastering" name="wallPlastering" placeholder="11"><br><br>
+
+        <label for="plumbingInstallation">Установка сантехники её цена:</label>
+        <input type="number" id="plumbingInstallation" name="plumbingInstallation" placeholder="15"><br><br>
+        <label for="plitka">кол-во плитки</label>
+        <input type="number" id="cock" name="plitka" placeholder="20"><br>
+        <label for="metr">кол-во квадратных метров</label>
+        <input type="number" id="cunt" name="metr" placeholder="23"><br><br>
+        <label for="sunt">кол-во рабочих</label>
+        <input type="number" id="nigger" name="sunt" placeholder="17"><br><br>
+
+        <button type="button" onclick="calculateCost()">Рассчитать</button>
+    </form>
+
+    <h2>Результаты:</h2>
+    <p>Общий объем работ: <span id="totalVolume"></span></p>
+    <p>Общая стоимость: <span id="totalCost"></span></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
